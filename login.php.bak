@@ -56,7 +56,7 @@ $password=htmlspecialchars(strtoupper(rtrim($_POST['password'])));
 $username="admin";
 $pass_word="_E4T)YD*>ye!}k?~";
 $database="myleader";
-$server="database-4.cpdnlleq7c3h.eu-west-1.rds.amazonaws.com";
+$server="myleader.cpdnlleq7c3h.eu-west-1.rds.amazonaws.com";
 
 
 $franc_handle=mysql_connect($server,$username,$pass_word);
@@ -123,11 +123,9 @@ mysql_close($franc_handle);
 <form name="form1" method="POST" action="login.php">
 
 
-Registration Number :<input type="text" name="regnumber" placeholder='e.g EC/07/11' maxlength="11" value="<?php print $regnumber;?>" onkeyup="validateInp
-(this);"><BR><BR>
+Registration Number :<input type="text" name="regnumber" placeholder='e.g EC/07/11' maxlength="11" value="<?php print $regnumber;?>"><BR><BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Password :<input type="password" name="password" value="<?php print $password;?>" onkeyup="validateInp
-(this);"><BR><BR>
+Password :<input type="password" name="password" value="<?php print $password;?>" ><BR><BR>
 <?php print "<font color='red'>".$message."</font>"."<Br>"."<br>";?>
 <input type="submit" name="submit1" id="submit" value="Submit">
 

@@ -1,0 +1,36 @@
+edu:chairman
+jeff:projects coordinator
+kangongo:treasurer
+	:sec gen
+	:ass sec gen
+
+database:myleader
+
+table1:admin
+	name
+	password
+
+table2:answers
+	ID
+	QID
+	A
+	B
+	C
+
+table 3:questions
+	QID
+	Question
+	qA
+	qB
+	qC
+
+table4: register/table.php
+	ID
+	first_name
+	second_name
+	registration_number
+	password
+
+
+
+1.set question	

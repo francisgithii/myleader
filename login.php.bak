@@ -27,7 +27,7 @@ elem. value = strOut ;
 
 
 	<table >
-		<tr><td colspan="4" id="title">TSA Elections 2016<br><font size="2"><i>"your trusted enumerator" </i></font></td></tr>
+		<tr><td colspan="4" id="title">TSA-Elections-2016<br><font size="2"><i>"your trusted enumerator" </i></font></td></tr>
 		
 		<tr><td colspan="4" id="qstn"><br><BR><BR>
 

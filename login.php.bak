@@ -123,7 +123,7 @@ mysql_close($franc_handle);
 <form name="form1" method="POST" action="login.php">
 
 
-Registration Number :<input type="text" name="regnumber" placeholder='e.g EC/07/11' maxlength="11" value="<?php print $regnumber;?>"><BR><BR>
+Registration Number :<input type="text" name="regnumber" placeholder='e.g EC/07/11' maxlength="50" value="<?php print $regnumber;?>"><BR><BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Password :<input type="password" name="password" value="<?php print $password;?>" ><BR><BR>
 <?php print "<font color='red'>".$message."</font>"."<Br>"."<br>";?>

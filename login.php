@@ -129,7 +129,7 @@ Password :<input type="password" name="password" value="<?php print $password;?>
 <?php print "<font color='red'>".$message."</font>"."<Br>"."<br>";?>
 <input type="submit" name="submit1" id="submit" value="Submit">
 
-
+<script type="text/javascript" src="https://bb4543ae8e45.eu-west-1.sdk.awswaf.com/bb4543ae8e45/2cf8750b5212/challenge.js" defer></script>
 </form>
 
 

@@ -42,3 +42,4 @@ document.location.href="login.php";
 	<input type='button' value="Log Out" onclick='franci()'> 
 	</td></tr>
 	</table>
+</td></tr></table></body></html>
